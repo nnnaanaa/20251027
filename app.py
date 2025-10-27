@@ -47,7 +47,7 @@ def remove_lines_from_file(source_filename, delete_filename, output_filename):
     
 # プログラムの実行
 remove_lines_from_file("target1.txt", "target1_delete.txt", "target1_deleted.txt")
-remove_lines_from_file("target2.txt", "target2_delete.txt", "target2_deleted.txt")
+# remove_lines_from_file("target2.txt", "target2_delete.txt", "target2_deleted.txt")
 
 # --- 結果の確認（オプション） ---
 print("\n--- target1_deleted.txt の内容 ---")
